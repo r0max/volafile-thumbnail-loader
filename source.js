@@ -25,7 +25,7 @@
 			index = s.indexOf(start);
 			lastIndex = s.lastIndexOf('/');
 			result = s.substring(index + start.length, lastIndex);
-			return "/get_asset/thumb/" + result;
+			return "/asset/" + result + "/thumb";
 		}
 		return null;
 	}
